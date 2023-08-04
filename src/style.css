@@ -1,0 +1,61 @@
+:root {
+    --font-color: #eee;
+    --font-color-dark: #aaa;
+    --border-color: #222;
+    --background-light: rgba(0, 0, 0, 0.6);
+    --background-light-hover: rgba(99, 99, 99, 0.4);
+    --background-dark: rgba(0, 0, 0, 0.6);
+}
+
+body {
+    background-image: url(./breads.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.header {
+    min-height: 100px;
+    background-color: var(--background-dark);
+    color: var(--font-color);
+    font-size: 25px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    margin: 20px;
+}
+
+#home {
+    
+}
+
+#recipe {
+    
+}
+
+#about {
+    
+}
+
+#main {
+    text-align: center;
+    margin-top: 24%;
+}
+
+#bred {
+    font-size: 170px;
+    margin: 0px;
+    color: var(--font-color);
+}
+
+
+
+
+
